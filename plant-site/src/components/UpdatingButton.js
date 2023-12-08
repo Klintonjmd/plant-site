@@ -1,7 +1,7 @@
-import "./App.css";
+import "../../src/App.css";
 import { useState } from "react";
 
-function App() {
+function UpdatingButton() {
   const [count, setCount] = useState(0);
 
   function handleClick() {
@@ -11,4 +11,4 @@ function App() {
   return <button onClick={handleClick}>Clicked {count} times</button>;
 }
 
-export default App;
+export default UpdatingButton;
