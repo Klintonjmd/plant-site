@@ -1,7 +1,9 @@
+// Example React Component
+
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function ListPlants() {
+function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -27,4 +29,4 @@ function ListPlants() {
   );
 }
 
-export default ListPlants;
+export default App;
